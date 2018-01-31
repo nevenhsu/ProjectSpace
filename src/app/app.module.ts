@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { GalaxyComponent } from './galaxy/galaxy.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GalaxyComponent,
   ],
   imports: [
     BrowserModule
